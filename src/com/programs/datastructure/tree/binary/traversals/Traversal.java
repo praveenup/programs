@@ -44,6 +44,7 @@ public class Traversal {
 
     public static void main(String[] args) {
         Traversal tree = new Traversal();
+        tree.root = new BinaryTreeNode(1);
         tree.root.left = new BinaryTreeNode(2);
         tree.root.right = new BinaryTreeNode(3);
         tree.root.left.left = new BinaryTreeNode(4);
